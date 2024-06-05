@@ -170,7 +170,7 @@ main {
     margin-left: 30px;
   }
   .container_livro .alinhamento .content .img1 {
-    top: 1450px;
+    top: 1300px;
     left: 0px;
     width: 200px;
     height: 250px;
@@ -180,6 +180,31 @@ main {
     left: 150px;
     width: 200px;
     height: 250px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .container_hero li {
+    margin-left: 28px;
+  }
+  #section_button #label {
+    margin-left: 8px;
+  }
+  #section_button #btnStart {
+    width: 80px;
+  }
+  .container_livro .alinhamento h2 {
+    margin-left: 28px;
+    font-size: 22px;
+    max-width: 250px;
+  }
+  .container_livro .alinhamento p {
+    padding-left: 20px;
+  }
+  .container_livro .alinhamento .content .img1 {
+    top: 1940px;
+  }
+  .container_livro .alinhamento .content .img2 {
+    left: 130px;
   }
 }
 body {
