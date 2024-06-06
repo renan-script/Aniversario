@@ -207,6 +207,47 @@ main {
     left: 130px;
   }
 }
+@media screen and (max-width: 415px) {
+  .container_livro .alinhamento .content .img1 {
+    top: 2090px;
+  }
+  .container_livro .alinhamento .content .img2 {
+    left: 110px;
+  }
+}
+@media screen and (max-width: 395px) {
+  #section_button #label {
+    font-size: 15px;
+    padding-left: 10px;
+  }
+  #section_button #pageNumber {
+    width: 130px;
+  }
+  .container_livro .alinhamento h2 {
+    margin-left: 90px;
+    font-size: 22px;
+    max-width: 250px;
+  }
+  .container_livro .alinhamento p {
+    padding-left: 90px;
+  }
+  .container_livro .alinhamento .content .imgSolo {
+    margin-left: 100px;
+  }
+  .container_livro .alinhamento .content .img2 {
+    left: 100px;
+  }
+  .container_livro #capituloFinal h2 {
+    margin-left: 25px;
+  }
+  .container_livro #capituloFinal p {
+    position: relative;
+    right: 70px;
+    margin-left: 0;
+    width: 100%;
+    max-width: 400px;
+  }
+}
 body {
   font-family: "Sora", sans-serif;
   width: 100%;
